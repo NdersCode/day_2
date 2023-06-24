@@ -12,16 +12,13 @@ class AriticlePreview extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const SizedBox(
-            width: 380,
-            child: Text(
-              '‘Demon Slayer’ Announces Hashira Training Arc, Here’s A Release Date Estimate',
-              style: TextStyle(
-                color: Color(0xFF1B1A30),
-                fontSize: 24,
-                fontFamily: 'SF Pro Display',
-                fontWeight: FontWeight.w900,
-              ),
+          const Text(
+            '‘Demon Slayer’ Announces Hashira Training Arc, Here’s A Release Date Estimate',
+            style: TextStyle(
+              color: Color(0xFF1B1A30),
+              fontSize: 24,
+              fontFamily: 'SF Pro Display',
+              fontWeight: FontWeight.w900,
             ),
           ),
           const SizedBox(height: 32),
@@ -39,16 +36,15 @@ class AriticlePreview extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 32),
-          const SizedBox(
-            child: Text(
-              'With the grand final of Demon Slayer’s Swordsmith Village Arc last night in a double-size episode that was a rare fully happy ending for our heroes, Ufotable immediately announced that of course, the next arc was coming.',
-              textAlign: TextAlign.left,
-              style: TextStyle(
-                color: Color(0xFF25254B),
-                fontSize: 16,
-                fontFamily: 'SF Pro Display',
-                fontWeight: FontWeight.w400,
-              ),
+          const Text(
+            'With the grand final of Demon Slayer’s Swordsmith Village Arc last night in a...',
+            textAlign: TextAlign.justify,
+            style: TextStyle(
+              color: Color(0xFF25254B),
+              fontSize: 16,
+              fontFamily: 'SF Pro Display',
+              fontWeight: FontWeight.w400,
+              height: 1.40,
             ),
           ),
           const SizedBox(height: 32),

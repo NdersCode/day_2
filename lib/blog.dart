@@ -30,9 +30,19 @@ class _BlogState extends State<Blog> {
 
     return MaterialApp(
       home: Scaffold(
+        appBar: AppBar(
+          title: const Text('KIMETSU NO YAIBA'),
+          titleTextStyle: const TextStyle(
+            fontSize: 24,
+            fontFamily: 'SF Pro Display',
+            fontWeight: FontWeight.w900,
+          ),
+          backgroundColor: Colors.deepPurple,
+          shadowColor: const Color.fromARGB(143, 0, 0, 0),
+        ),
         body: Container(
           padding: const EdgeInsets.only(
-            top: 64,
+            top: 24,
             left: 25,
             right: 25,
             bottom: 64,
