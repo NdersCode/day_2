@@ -41,12 +41,8 @@ class _BlogState extends State<Blog> {
           shadowColor: const Color.fromARGB(143, 0, 0, 0),
         ),
         body: Container(
-          padding: const EdgeInsets.only(
-            top: 24,
-            left: 25,
-            right: 25,
-            bottom: 64,
-          ),
+          padding:
+              const EdgeInsets.only(top: 24, left: 25, right: 25, bottom: 64),
           decoration: const BoxDecoration(color: Color(0xFFE3E4F9)),
           child: screenWidget,
         ),
